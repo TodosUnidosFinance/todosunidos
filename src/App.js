@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import home from "./Pages/home";
+import contact from "./Pages/contact";
+import noticias from "./Pages/noticias";
+import mapasMarcas from "./Pages/mapasMarcas";
+import acerca from "./Pages/acerca";
+import registraTienda from "./Pages/registraTienda";
+import defi from "./Pages/defi";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" exact component={home} />
+        <Route path="/contacto" component={contact} />
+        <Route path="/noticias" component={noticias} />
+        <Route path="/mapas-y-marcas" component={mapasMarcas} />
+        <Route path="/acerca-de-nosotros" component={acerca} />
+        <Route path="/registra-tu-tienda" component={registraTienda} />
+        <Route path="/defi" component={defi} />
+      </Switch>
+    </Router>
   );
 }
 
