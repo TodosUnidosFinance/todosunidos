@@ -4,16 +4,25 @@ import Social from "../Components/Social";
 function Footer() {
   const fecha = new Date();
   return (
-    <div>
-      <footer className="footer mt-auto py-3 bg-dark">
-        <div className="container">
-          <Social />
-          <p className="text-muted text-center">
-            Todos los derechos reservados &copy; {fecha.getFullYear()}
-          </p>
+    <footer className="footer mt-auto py-3 bg-dark">
+      <div className="container">
+        <div className="row">
+          <div className="col-auto mr-auto">
+            <img
+              className="border-0"
+              style={{ maxWidth: "50px" }}
+              src="images/logo.png"
+            />
+          </div>
+          <div className="col-auto">
+            <Social />
+          </div>
         </div>
-      </footer>
-    </div>
+        <p className="text-muted text-center">
+          Todos los derechos reservados &copy; {fecha.getFullYear()}
+        </p>
+      </div>
+    </footer>
   );
 }
 

@@ -7,6 +7,7 @@ import mapasMarcas from "./Pages/mapasMarcas";
 import acerca from "./Pages/acerca";
 import registraTienda from "./Pages/registraTienda";
 import defi from "./Pages/defi";
+import covid19 from "./Pages/covid19";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/acerca-de-nosotros" component={acerca} />
         <Route path="/registra-tu-tienda" component={registraTienda} />
         <Route path="/defi" component={defi} />
+        <Route path="/covid19" component={covid19} />
       </Switch>
     </Router>
   );
