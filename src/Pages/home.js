@@ -29,12 +29,12 @@ function home() {
         <Team name="Michael Hernandez" job="Asesor" image="images/user.svg" />
         <Team
           name="Fernando Iturriza"
-          job="Asesor"
+          job="Asesor & Founder"
           image="images/fernando.jpg"
         />
         <Team
           name="Franklin Sandoval R."
-          job="Asesor"
+          job="Asesor & Founder"
           image="images/user.svg"
         />
         <Team name="Jean Paul Herrera" job="Asesor" image="images/jean.jpg" />
