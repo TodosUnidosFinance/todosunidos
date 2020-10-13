@@ -34,7 +34,7 @@ function Nav() {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">
-                  Home
+                  Inicio
                 </Link>
               </li>
               <li className="nav-item">
