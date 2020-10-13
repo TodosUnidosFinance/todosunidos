@@ -9,6 +9,7 @@ function Social() {
             className="mx-1"
             target="_blank"
             href="https://www.facebook.com/TodosUnidos-2041989902731282/"
+            rel="noopener noreferrer"
           >
             <img
               src="images/facebook.svg"
@@ -22,6 +23,7 @@ function Social() {
             className="mx-1"
             target="_blank"
             href="https://www.instagram.com/todosunidosts/"
+            rel="noopener noreferrer"
           >
             <img
               src="images/instagram.svg"
@@ -35,6 +37,7 @@ function Social() {
             className="mx-1"
             target="_blank"
             href="https://twitter.com/TodosUnidosTS"
+            rel="noopener noreferrer"
           >
             <img
               src="images/twitter.svg"
@@ -48,6 +51,7 @@ function Social() {
             className="mx-1"
             target="_blank"
             href="https://www.youtube.com/channel/UCN3ilHkQlvyz3GkS7wyO2qg?view_as=subscriber"
+            rel="noopener noreferrer"
           >
             <img
               src="images/youtube.svg"

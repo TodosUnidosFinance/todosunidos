@@ -76,7 +76,11 @@ export default function Covid19() {
       <main>
         <div className="row">
           <div className="col-xl-4 mt-5">
-            <img className="img-fluid border-0" src="images/medical.svg" />
+            <img
+              className="img-fluid border-0"
+              src="images/medical.svg"
+              alt=""
+            />
           </div>
           <div className="col">
             <div className="row mt-5">

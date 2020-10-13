@@ -8,10 +8,12 @@ import acerca from "./Pages/acerca";
 import registraTienda from "./Pages/registraTienda";
 import defi from "./Pages/defi";
 import covid19 from "./Pages/covid19";
+import Nav from "./Components/Nav";
 
 function App() {
   return (
     <Router>
+      <Nav />
       <Switch>
         <Route path="/" exact component={home} />
         <Route path="/contacto" component={contact} />

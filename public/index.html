@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="todosunidos" content="TodosUnidos web site" />
+    <!-- HTML Meta Tags -->
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="TodosUnidos" />
+    <meta
+      itemprop="description"
+      content="TodosUnidos es un Portal Abierto y Descentralizado con la visión de exponenciar y masificar la utilización de la tecnología para el beneficio de nuestra sociedad, y trasladar todo los beneficios que esta poderosa herramienta nos proporcionan a nuestros usuarios."
+    />
+    <meta
+      itemprop="image"
+      content="https://todosunidos.com/images/todosunidos.jpg"
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://todosunidos.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="TodosUnidos" />
+    <meta
+      property="og:description"
+      content="TodosUnidos es un Portal Abierto y Descentralizado con la visión de exponenciar y masificar la utilización de la tecnología para el beneficio de nuestra sociedad, y trasladar todo los beneficios que esta poderosa herramienta nos proporcionan a nuestros usuarios."
+    />
+    <meta
+      property="og:image"
+      content="https://todosunidos.com/images/todosunidos.jpg"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TodosUnidos" />
+    <meta
+      name="twitter:description"
+      content="TodosUnidos es un Portal Abierto y Descentralizado con la visión de exponenciar y masificar la utilización de la tecnología para el beneficio de nuestra sociedad, y trasladar todo los beneficios que esta poderosa herramienta nos proporcionan a nuestros usuarios."
+    />
+    <meta
+      name="twitter:image"
+      content="https://todosunidos.com/images/todosunidos.jpg"
+    />
+
+    <!-- Meta Tags Generated via http://heymeta.com -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link
       rel="stylesheet"
@@ -28,87 +65,7 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
-    <div class="container">
-      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">
-            <img
-              src="./images/logo.png"
-              width="50"
-              height="40"
-              class="d-inline-block align-top"
-              alt=""
-              loading="lazy"
-            /><span style="vertical-align: sub"> TodosUnidos</span></a
-          >
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="covid19"> Covid-19 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="noticias"> Noticias </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="https://tufi.finance" target="_blank"> TUFi </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-white"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Aplicaciones
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li>
-                    <a class="dropdown-item" href="registra-tu-tienda">
-                      Registra tu tienda
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="mapas-y-marcas">
-                      Mapas y Marcas
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="acerca-de-nosotros">
-                  Acerca de Nosotros
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="contacto"> Contáctanos </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <div class="container-fluid">
       <div id="root"></div>
     </div>
   </body>

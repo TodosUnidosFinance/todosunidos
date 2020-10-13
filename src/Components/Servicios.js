@@ -20,6 +20,7 @@ function Servicios() {
                 href="https://tufi.finance"
                 target="_blank"
                 className="btn btn-warning text-dark font-weight-bold"
+                rel="noopener noreferrer"
               >
                 TuFi.finance
               </a>
@@ -40,9 +41,9 @@ function Servicios() {
                 Creando dApps y Contratos Inteligentes, facilitando el
                 desarrollo de aplicaciones descentralizadas
               </p>
-              <a href="#" className="btn btn-primary">
+              {/* <a href="#" className="btn btn-primary">
                 Conoce mas
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -61,9 +62,9 @@ function Servicios() {
                 seran dedicados a obras sociales que seran validadas,
                 verificadas y programadas por la comunidad
               </p>
-              <a href="#" className="btn btn-primary">
+              {/* <a href="#" className="btn btn-primary">
                 Conoce mas
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
