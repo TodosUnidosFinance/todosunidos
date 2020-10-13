@@ -15,11 +15,11 @@ function covid19() {
         />
         <link rel="canonical" href="https://todosunidos.com/covid19"></link>
       </Helmet>
-      <div>
+      <div className="container">
         <Covid19 />
         <WorldTable />
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }

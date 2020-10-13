@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function PageNotFound() {
   return (
@@ -10,6 +11,9 @@ function PageNotFound() {
         <div className="col-sm">
           <h2>Oops! Página no encontrada</h2>
           <p>La paǵina o ruta que deseas ingresar no existe.</p>
+          <p style={{ textAlign: "center" }}>
+            <Link to="/">Ir al inicio </Link>
+          </p>
         </div>
       </div>
     </div>

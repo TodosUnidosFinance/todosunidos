@@ -14,10 +14,10 @@ function contact() {
         />
         <link rel="canonical" href="https://todosunidos.com/contacto"></link>
       </Helmet>
-      <div>
+      <div className="container">
         <Contacto />
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }
