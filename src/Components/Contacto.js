@@ -1,4 +1,3 @@
-import { Hidden } from "@material-ui/core";
 import React from "react";
 import Credentials from "./Credentials";
 import Mapas from "./Mapas";
@@ -7,7 +6,7 @@ function Contacto() {
   return (
     <div className="row my-5">
       <div className="col-sm">
-        <img className="img-fluid border-0" src="images/contact.svg" />
+        <img className="img-fluid border-0" src="images/contact.svg" alt="" />
       </div>
       <div className="col-sm">
         <h2>Contáctanos</h2>

@@ -7,6 +7,7 @@ function Porque() {
         <img
           className="img-fluid border-0"
           src="images/undraw_decide_3iwx.svg"
+          alt=""
         />
       </div>
       <div className="col-sm">

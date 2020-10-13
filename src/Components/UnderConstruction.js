@@ -5,7 +5,11 @@ function UnderConstruction() {
     <div>
       <div className="row mb-5 mt-5">
         <div className="col-sm">
-          <img className="img-fluid border-0" src="images/construction.svg" />
+          <img
+            className="img-fluid border-0"
+            src="images/construction.svg"
+            alt=""
+          />
         </div>
         <div className="col-sm">
           <h2>Disculpe, estamos remodelando esta sección.</h2>

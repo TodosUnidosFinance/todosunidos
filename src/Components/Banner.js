@@ -14,9 +14,9 @@ function Banner() {
           esta poderosa herramienta nos proporcionan a nuestros usuarios.
         </p>
         <p className="lead mb-0">
-          <a href="#" className="text-white font-weight-bold">
+          {/* <a href="#" className="text-white font-weight-bold">
             Conoce mas...
-          </a>
+          </a> */}
         </p>
       </div>
     </div>
