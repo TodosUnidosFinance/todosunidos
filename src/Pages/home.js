@@ -16,6 +16,7 @@ function home() {
           name="description"
           content="TodosUnidos es un Portal Abierto y Descentralizado con la visión de exponenciar y masificar la utilización de la tecnología para el beneficio de nuestra sociedad, y trasladar todo los beneficios que esta poderosa herramienta nos proporcionan a nuestros usuarios."
         />
+        <link rel="canonical" href="https://todosunidos.com"></link>
       </Helmet>
       <div>
         <Banner />

@@ -13,6 +13,7 @@ function covid19() {
           name="description"
           content="Estadísticas en el mundo del Covid19."
         />
+        <link rel="canonical" href="https://todosunidos.com/covid19"></link>
       </Helmet>
       <div>
         <Covid19 />

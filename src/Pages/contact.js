@@ -12,6 +12,7 @@ function contact() {
           name="description"
           content="Contáctanos en TodosUnidos. ¿Necesitas ayuda? Nosotros resolveremos tus dudas e inquietudes relacionadas con TodosUnidos. No dudes en llamarnos o escribirnos."
         />
+        <link rel="canonical" href="https://todosunidos.com/contacto"></link>
       </Helmet>
       <div>
         <Contacto />
