@@ -14,7 +14,7 @@ function contact() {
         />
         <link rel="canonical" href="https://todosunidos.com/contacto"></link>
       </Helmet>
-      <div className="container">
+      <div className="container" style={{ marginBottom: "110px" }}>
         <Contacto />
       </div>
       <Footer />

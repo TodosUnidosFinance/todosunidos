@@ -20,7 +20,7 @@ function home() {
       </Helmet>
       <div>
         <Banner />
-        <div className="container">
+        <div className="container" style={{ marginBottom: "110px" }}>
           <Porque />
           <Servicios />
           <div className="row row-cols-2 row-cols-sm-3 row-cols-md-3 mb-5">

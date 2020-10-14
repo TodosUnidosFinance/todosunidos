@@ -15,7 +15,7 @@ function covid19() {
         />
         <link rel="canonical" href="https://todosunidos.com/covid19"></link>
       </Helmet>
-      <div className="container">
+      <div className="container" style={{ marginBottom: "110px" }}>
         <Covid19 />
         <WorldTable />
       </div>
