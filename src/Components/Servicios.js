@@ -4,7 +4,7 @@ function Servicios() {
   return (
     <div>
       <div className="row mb-5">
-        <div className="col col-sm">
+        {/* <div className="col col-sm">
           <div className="card">
             <img
               src="images/undraw_crypto_portfolio_2jy5.svg"
@@ -26,7 +26,7 @@ function Servicios() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="col col-sm">
           <div className="card">
