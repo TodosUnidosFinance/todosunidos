@@ -16,15 +16,18 @@ function Contacto() {
         </p>
         <ul className="address">
           <li>
-            <span> Dirección:</span> Puerto Cabello, Edo.Carabobo, Calle
-            Valencia
+            <span> Oficina:</span> Tu Red Inalambrica CA
           </li>
           <li>
-            <span> Telefono Cel:</span> +58 (0424) 4331027
+            <span> Dirección:</span> Puerto Cabello, Edo.Carabobo, Calle
+            Valencia. Oficina Tu Red Inalambrica CA
+          </li>
+          <li>
+            <span> Telefono Cel:</span> +58 (416) 733 15 13
           </li>
           <li>
             <span> Email:</span>
-            <a href="mailto:info@todosunidos.com"> info@todosunidos.com </a>
+            <a href="mailto:info@todosunidos.com"> william@todosunidos.com </a>
           </li>
         </ul>
         <div className="col-12" style={{ display: "none" }}>

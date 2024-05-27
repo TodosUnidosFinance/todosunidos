@@ -20,6 +20,7 @@ function Footer() {
           </div>
           <div className="col-4 text-center text-white">
             <h5>Todos los derechos reservados &copy; {fecha.getFullYear()}</h5>
+            <h6>Propiedad de Tu Red Inalambrica CA</h6>
           </div>
           <div className="col-4">
             <Social />
